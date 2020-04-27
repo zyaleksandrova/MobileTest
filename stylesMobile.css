@@ -1,0 +1,368 @@
+/* HTML elements */
+body {
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  width: 100%;
+}
+
+h2 {
+  color: #556B2F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #556B2F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color:#40514E;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+hr {
+  border: dotted #556B2F 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 1% auto;
+}
+
+a {
+  color: #556B2F;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #556B2F;
+}
+
+/* Section Title */
+/* Navbar */
+.navbar {
+  padding: 0 0 0.1rem;
+}
+
+.navbar-brand {
+  font-family: "Petit Formal Script";
+}
+
+/* Top-cover */
+.container-fluid {
+  padding: 12% 15%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/Cover9.png")
+}
+
+#title {
+  width: 100%;
+}
+
+
+.name {
+  color: #556B2F;
+  font-size: 4rem;
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
+}
+
+.subtitle {
+  width: 100%;
+  height: auto;
+  color: #404040;
+  font-size: 2rem;
+  margin-left: 3%;
+  padding-bottom: 15%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Profile {
+  padding-bottom: 9%;
+  padding-top:0;
+}
+.col-lg-12 about {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+
+/* Section About */
+#About {
+  margin: 2% 4%;
+}
+
+.About-title {
+
+  font-size: 2rem;
+  color: #556B2F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  padding: 2%;
+}
+
+.About-text {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* Section Experience */
+
+.Skills-title{
+  color: #556B2F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 2%;
+  text-align: center;
+}
+/* SAB */
+.SABImage {
+ width: 60%;
+ height: auto;
+ float: right;
+}
+
+.SAB-title {
+  padding: 2% 0;
+  text-align: left;
+
+}
+
+.SAB-text {
+  text-align: justify;
+  width: 50%;
+}
+
+/* IR */
+.Background2 {
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/IR6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.IR-title {
+  text-align: justify;
+  margin-left: 50%;
+  padding: 2% 0;
+}
+
+.IR-text {
+  text-align: justify;
+  width: 50%;
+  margin-left: 50%;
+}
+
+/* 3Shape */
+.Background3 {
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/3Shape3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.Shape3-title {
+  text-align: left;
+  padding: 2% 0;
+
+}
+
+.Shape3-text {
+  text-align: justify;
+  width: 50%;
+}
+
+/* G2 */
+.Background4 {
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/G24.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+.G2-title {
+  text-align: justify;
+  margin-left: 50%;
+  padding: 2% 0;
+}
+
+.G2-text {
+  text-align: justify;
+  width: 50%;
+  margin-left: 50%;
+}
+
+/* Other projects */
+.Other-title {
+  width: 75%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+/* TED */
+.Background5 {
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/TED2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+.TED-title {
+  padding: 2% 0;
+  width: 50%;
+  text-align: left;
+}
+
+.TED-text {
+  width: 50%;
+  text-align: justify;
+}
+
+/* TSA */
+.Background6 {
+  background-image: url("/Users/zlatinaaleksandrova/Desktop/WORK WORK WORK WORK WORK WORK /CSS-My site/Images/Home2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+.TSA-title {
+  text-align: justify;
+  margin-left: 50%;
+  padding: 2% 0;
+}
+
+.TSA-text {
+  text-align: justify;
+  width: 50%;
+  margin-left: 50%;
+
+}
+
+/* Section Contact-me */
+
+.contact-me {
+  text-align: center;
+  margin: 0 4%;
+}
+
+.copywright {
+  color: #556B2F;
+  font-size: 1rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+.classname {
+	background-color:#556b2f;
+	-webkit-border-top-left-radius:21px;
+	-moz-border-radius-topleft:21px;
+	border-top-left-radius:21px;
+	-webkit-border-top-right-radius:21px;
+	-moz-border-radius-topright:21px;
+	border-top-right-radius:21px;
+	-webkit-border-bottom-right-radius:21px;
+	-moz-border-radius-bottomright:21px;
+	border-bottom-right-radius:21px;
+	-webkit-border-bottom-left-radius:21px;
+	-moz-border-radius-bottomleft:21px;
+	border-bottom-left-radius:21px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-align:center;
+}.classname:hover {
+	background-color:#338009;
+  color: white;
+  text-decoration: none;
+
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+.Resume {
+	background-color:#556b2f;
+	-webkit-border-top-left-radius:21px;
+	-moz-border-radius-topleft:21px;
+	border-top-left-radius:21px;
+	-webkit-border-top-right-radius:21px;
+	-moz-border-radius-topright:21px;
+	border-top-right-radius:21px;
+	-webkit-border-bottom-right-radius:21px;
+	-moz-border-radius-bottomright:21px;
+	border-bottom-right-radius:21px;
+	-webkit-border-bottom-left-radius:21px;
+	-moz-border-radius-bottomleft:21px;
+	border-bottom-left-radius:21px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+}.Resume:hover {
+	background-color:#338009;
+  color: white;
+  text-decoration: none;
+}.Resume:active {
+	position:relative;
+	top:1px;
+}
+
+.icons {
+  margin: 20px 10px;
+}
+
+
+@media (max-width:1028px) {
+    .container-fluid {
+      position: static;
+    }
+  }
